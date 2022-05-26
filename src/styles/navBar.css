@@ -1,0 +1,35 @@
+.navbar
+{
+    height: 100px;
+    width:100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+ .navbar .leftSide
+{
+    height: 100%;
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+.navbar .navbarLeftImage
+{
+    width: 170px;
+}
+.navbar .rightSide
+{
+    display: flex;
+    flex: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.navbar a
+{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 15px;
+}
